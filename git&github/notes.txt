@@ -1,0 +1,250 @@
+What is Git? 
+
+free & open source Version control System.
+
+it is a tool that help tpo track changes in code.
+
+store the history and tract it.
+
+1. track history
+2. help to colloborate
+
+What is Github?
+
+Website where we host repositories online 
+
+commit - chnages something in file- first we add and change something
+
+--
+Using Git -
+
+- Command line 
+
+- IDE / Code Editors(like VSCode)
+
+- Graphical User Interface (Like GitKraken)
+
+
+Basics Commands -
+
+- clone: cloning a repository on our local machine
+
+git clone <-some link>
+
+- status: displays the state of the code 
+git status
+
+
+- add: adds new or changed file in your working directoryto the Git staging area 
+git add <file name>
+
+- commit: it is the record of change
+git commit -m "some msg"
+
+-push -upload local repo content to remote repo
+git push origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Terminal - A text input and output enviroment.
+
+!. git , programming , nodejs
+2. Speed
+3. Accesebility - hidden files
+4. Access
+
+Different terms 
+
+- Command line: any interface that is used by entering textual commands (gen. Windows centric)
+- Terminal: This is a type of a command line (gen. Mac centric)
+- Console: A command- line interface used to work with our computer 
+- Shell: A programm running on terminal 
+- Bash: A popular shell on Mac OS/linux
+- Z- shell: Another shell(default)
+
+
+Basics -
+
+ls = list files
+(show my files)
+
+pwd = print working directory
+(where am I?)
+
+clear = clear screen
+
+
+Navigation 
+Inside & Outside Directories
+
+cd - change directory
+
+cd Desktop
+
+cd .. = back button
+
+paths - absolute & Relative
+
+cd Desktop/JavaScript(realtive path)
+cd Users/@Ae-dil/Desktop/JavaScript(realtive path)
+
+cd / = root directory
+cd ~ = home directory
+
+Making Directories
+mkdir = make directory
+
+
+
+//Flags
+
+flags are charcters that we pass with commands to modify 
+thier behaviour.
+
+manual Command
+
+man ls - give info about ls command
+man mkdir - give info about mkdir command
+
+with Flags
+
+ls -l
+
+ls -a
+
+ls -la
+
+Touch Command - used to create files when file is not exist.
+
+touch file_name
+
+Deleting Files & Folder  - sensitive command
+
+rm - remove files
+rmdir - remove empty Folder
+rm -rf - removes any folders   recursive force
+
+
+- init: used to create a new git repo
+
+git remote add origin <-link->
+git remote -v (to verify remote)
+
+git branch (to check branch)
+
+git branch -M main (to rename branch)
+
+git push origin main
+
+
+git checkout < branch name >  (to navigate)
+
+git checkout -b <new branch name> (to create a new branch)
+
+to delete branch - git checkout -d branch name
+
+
+MErging Code
+
+git diff <branch name>  (to compare commits, branch, files & more)
+
+git merge <branch name>  (to merge 2 branches)
+   OR 
+   Create a PR
+
+
+   PULL Request - 
+   It lets you tell others about 
+   chnages you've pushed to a 
+   branch in a repositry on Github
+
+
+   git pull origin main
+   used to fetch and download content from
+   a remote repo and immediately update
+   the local repo to match that content.
+
+
+
+   //Merge Conflicts
+   
+   An event that takes palce whn Git is unable 
+   to automatically resolve differences uin code b/w
+   two commits
+
+
+
+   fixing Mistakes
+
+Case1- staged changes
+    git reset <file-name>
+    git reset
+
+Case2- commited chnages (for one commit)
+    git reset HEAD-1
+
+CAse3-  commited changes (for many commits)
+    git reset <commit hash>
+    git reset --hard <commit hash>
+
+
+    git log - commit information 

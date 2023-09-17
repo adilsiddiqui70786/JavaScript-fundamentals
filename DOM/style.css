@@ -1,0 +1,66 @@
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.box {
+  border: 1px solid black;
+  background-color: pink;
+}
+
+.btnStyle {
+  background-color: blue;
+  color: white;
+}
+
+.heading {
+  text-decoration: 1px purple underline;
+  color: purple;
+}
+
+
+/* body {
+  font-family: Arial;
+}
+
+#mainImg {
+  width: 35%;
+}
+
+.green{
+  color: green;
+}
+
+
+.underline {
+  text-decoration: underline purple wavy;
+}
+.box {
+  border: 0.25px solid black;
+  background-color: lightgray;
+  width: 200px;
+  padding: 1rem;
+}
+
+.yellowbg {
+  background-color: yellow;
+}
+
+
+.boxLink {
+  text-decoration: none;
+}
+
+.oldImg {
+  height: 200px;
+  width: 200px;
+  margin-right: 1rem;
+}
+
+#description {
+  background-color: antiquewhite;
+} */

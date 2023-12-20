@@ -1,4 +1,3 @@
-
 # JavaScript-fundamentals
 JavaScript - Implement JavaScript code enhancements from basic to advanced
 
